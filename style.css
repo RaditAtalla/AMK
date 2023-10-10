@@ -1,0 +1,27 @@
+* {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.myBanner {
+    width: 100%;
+    height: 791px;
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/amkbg.jpg');
+    background-position: center;
+    background-size: cover;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myBanner > h1 {
+    font-weight: bold;
+} 
+
+.nav-link:hover{
+    text-decoration: underline m !important;
+}
